@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="../src/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container1">
+                <div class="py-6 flex items-center justify-between">
+                    <div>
+                        <a href="index.html"><img src="images/logo.svg" alt=""></a>
+                    </div>
+                    <div class="flex items-center gap-8">
+                        <ul class="hidden md:flex md:items-center md:gap-[36px]">
+                            <li><a class="text-base hover:text-[#605DEC] active:text-[#9a99dc]"
+                                    href="./pages/flight.html">Flights</a>
+                            </li>
+                            <li><a class="text-base hover:text-[#605DEC] active:text-[#9a99dc]"
+                                    href="./pages/info.html">Passenger information</a></li>
+                            <li><a class="text-base hover:text-[#605DEC] active:text-[#9a99dc]" href="#">Packages</a>
+                            </li>
+                        </ul>
+                        <div class="hidden md:flex md:items-center md:gap-4">
+                            <button
+                                class="text-base hover:text-white py-3 px-5 hover:bg-[#605DEC] hover:rounded-[4px] duration-[0.35s] active:text-[#dcdcdc]">Sign
+                                in</button>
+                            <button
+                                class="text-base hover:text-white py-3 px-5 hover:bg-[#605DEC] hover:rounded-[4px] duration-[0.35s] active:text-[#dcdcdc]">Sign
+                                up </button>
+                        </div>
+                    </div>
+                    <div class="md:hidden">
+                        <img src="images/menu.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-[url(./images/hero-bg.png)] w-full bg-no-repeat bg-cover bg-center">
+            <div class="container1">
+                <div class="pt-24 pb-32 md:pt-36 md:pb-52 lg:pt-40 lg:pb-72">
+                    <div class="flex items-center justify-center">
+                        <p
+                            class="bg-gradient-to-r from-purple-700 to-pink-500 bg-clip-text text-transparent text-5xl sm:text-6xl font-bold text-center md:w-[70%] lg:w-[40%] lg:text-7xl">
+                            It's more than just a trip</p>
+                    </div>
+                    <form class="flex flex-col items-center pt-12 gap-4 lg:flex-row lg:gap-0 box lg:pt-24">
+                        <input placeholder="From where"
+                            class="py-[8px] px-[12px] bg-white w-[70%] border-[0.7px] border-[#7C8DB0] rounded-[4px] lg:rounded-none text-[18px] leading-[25px]"></input>
+                        <input placeholder="Where to"
+                            class="py-[8px] px-[12px] bg-white w-[70%] border-[0.7px] border-[#7C8DB0] rounded-[4px] lg:rounded-none text-[18px] leading-[25px]"></input>
+                        <input placeholder="Depart-Return"
+                            class="py-[8px] px-[12px] bg-white w-[70%] border-[0.7px] border-[#7C8DB0] rounded-[4px] lg:rounded-none text-[18px] leading-[25px]"></input>
+                        <input placeholder="Number of Travellers"
+                            class="py-[8px] px-[12px] bg-white w-[70%] border-[0.7px] border-[#7C8DB0] rounded-[4px] lg:rounded-none text-[18px] leading-[25px]"></input>
+                        <button type="submit"
+                            class="text-[18px] leading-[25px] py-[12px] px-[20px] rounded-[4px] bg-[#605DEC] text-white w-[70%] lg:w-[10%] lg:py-[9px] active:text-[#9e9df7]">Search</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container1">
+                <div class="py-[40px]">
+                    <div class="flex items-center justify-between pb-[30px]">
+                        <div class="w-[50%]">
+                            <p class="text-xl md:text-[24px] md:leading-[33px]">Find your next adventure with these
+                                <span class="text-[#605DEC]">flight deals</span>
+                            </p>
+                        </div>
+                        <div class="w-[50%] flex items-center justify-end gap-[10px]">
+                            <p class="text-xl leading-[33px] text-[#A1B0CC]">All</p>
+                            <img src="images/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[40px] mb-[40px] md:flex-row md:gap-[20px]">
+                        <div
+                            class="bg-white w-[100%] flex flex-col items-center rounded-[8px] overflow-hidden shadow-md hover:bg-[#605DEC] duration-[0.s] group">
+                            <div class="w-[100%]">
+                                <img class="w-[100%]" src="images/find-1.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5 ">
+                                <div class="flex justify-between mb-[4px]">
+                                    <p class="text-[18px] leading-[25px] w-[70%] group-hover:text-white">The Bund,
+                                        <span class="text-[#605DEC] group-hover:text-white">Shanghai</span>
+                                    </p>
+                                    <p class="text-[#7C8DB0] group-hover:text-white">$598</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#7C8DB0] w-[80%] group-hover:text-gray-300">China’s most
+                                        international
+                                        city</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white w-[100%] flex flex-col items-center rounded-[8px] overflow-hidden shadow-md hover:bg-[#605DEC] duration-[0.15s] group">
+                            <div class="w-[100%]">
+                                <img class="w-[100%]" src="images/find-2.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5 ">
+                                <div class="flex justify-between mb-[4px]">
+                                    <p class="text-[18px] leading-[25px] w-[70%] group-hover:text-white">Sydney Opera
+                                        House, <span class="text-[#605DEC] group-hover:text-white">Sydney</span></p>
+                                    <p class="text-[#7C8DB0] group-hover:text-white">$981</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#7C8DB0] w-[80%] group-hover:text-gray-300">Take a stroll along the
+                                        famous harbor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white w-[100%] flex flex-col items-center rounded-[8px] overflow-hidden shadow-md hover:bg-[#605DEC] duration-[0.15s] group">
+                            <div class="w-[100%]">
+                                <img class="w-[100%]" src="images/find-3.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5">
+                                <div class="flex justify-between mb-[4px]">
+                                    <p class="text-[18px] leading-[25px] w-[70%] group-hover:text-white">Kōdaiji Temple,
+                                        <span class="text-[#605DEC] group-hover:text-white">Kyoto</span>
+                                    </p>
+                                    <p class="text-[#7C8DB0] group-hover:text-white">$633</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#7C8DB0] w-[80%] group-hover:text-gray-300">Step back in time in the
+                                        Gion district</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white w-[100%] flex flex-col items-center rounded-[8px] overflow-hidden shadow-md hover:bg-[#605DEC] duration-[0.15s] group">
+                        <div class="w-[100%]">
+                            <img class="w-[100%]" src="images/find-4.png" alt="">
+                        </div>
+                        <div class="flex flex-col w-[100%] py-4 px-5 ">
+                            <div class="flex justify-between mb-[4px]">
+                                <p class="text-[18px] leading-[25px] w-[70%] group-hover:text-white">Tsavo East National
+                                    Park, <span class="text-[#605DEC] group-hover:text-white">Kyena</span></p>
+                                <p class="text-[#7C8DB0] group-hover:text-white">$1.248</p>
+                            </div>
+                            <div>
+                                <p class="text-[#7C8DB0] w-[80%] group-hover:text-gray-300">Named after the Tsavo River,
+                                    and opened in April 1984,
+                                    Tsavo East National Park is one of the oldest parks in Kenya. It is located in the
+                                    semi-arid Taru Desert.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container1">
+                <div class="py-[40px] mt-[40px]">
+                    <div class="flex items-center justify-between pb-[30px]">
+                        <div class="w-[50%]">
+                            <p class="text-xl md:text-[24px] md:leading-[33px]">Explore unique places to stay</p>
+                        </div>
+                        <div class="w-[50%] flex items-center justify-end gap-[10px]">
+                            <p class="text-xl leading-[33px] text-[#A1B0CC]">All</p>
+                            <img src="images/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[40px] mb-[80px] md:flex-row md:gap-[20px]">
+                        <div
+                            class="bg-white w-[100%] flex flex-col items-center rounded-[8px] overflow-hidden shadow-md hover:bg-[#605DEC] duration-[0.15s] group">
+                            <div class="w-[100%]">
+                                <img class="w-[100%]" src="images/explore-1.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5 ">
+                                <div class="flex justify-between mb-[4px]">
+                                    <p class="text-[18px] leading-[25px] w-[70%] group-hover:text-white">Stay among the
+                                        atolls in Maldives</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#7C8DB0] w-[80%] group-hover:text-gray-300">From the 2nd century AD,
+                                        the islands were known as
+                                        the 'Money Isles' due to the abundance of cowry shells, a currency of the early
+                                        ages.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white w-[100%] flex flex-col items-center rounded-[8px] overflow-hidden shadow-md hover:bg-[#605DEC] duration-[0.15s] group">
+                            <div class="w-[100%]">
+                                <img class="w-[100%]" src="images/explore-2.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5 ">
+                                <div class="flex justify-between mb-[4px]">
+                                    <p class="text-[18px] leading-[25px] w-[70%] group-hover:text-white">Experience the
+                                        Ourika Valley in
+                                        Morocco</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#7C8DB0] w-[80%] group-hover:text-gray-300">Morocco’s
+                                        Hispano-Moorish architecture blends
+                                        influences from Berber culture, Spain, and contemporary artistic currents in the
+                                        Middle East.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white w-[100%] flex flex-col items-center rounded-[8px] overflow-hidden shadow-md hover:bg-[#605DEC] duration-[0.15s] group">
+                            <div class="w-[100%]">
+                                <img class="w-[100%]" src="images/explore-3.png" alt="">
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5">
+                                <div class="flex justify-between mb-[4px]">
+                                    <p class="text-[18px] leading-[25px] w-[70%] group-hover:text-white">Live
+                                        traditionally in Mongolia</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#7C8DB0] w-[80%] group-hover:text-gray-300">Traditional Mongolian
+                                        yurts consists of an angled
+                                        latticework of wood or bamboo for walls, ribs, and a wheel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button
+                            class="py-3 text-white text-xl w-[100%] bg-[#605DEC] rounded-[4px] md:px-5 md:w-auto active:text-[#9e9df7]">Explore
+                            more stays</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container1">
+                <div class="py-[64px]">
+                    <div class="flex items-center justify-center pb-[24px]">
+                        <p class="text-xl md:text-[24px] md:leading-[33px]">What Tripma users are saying</p>
+                    </div>
+                    <div class="flex flex-col gap-[40px] md:flex-row md:gap-[20px]">
+                        <div class="bg-white w-[100%] flex flex-col items-start rounded-lg hover:bg-[#e1e1ff]">
+                            <div class="flex items-center gap-4 pt-4 px-5">
+                                <div>
+                                    <img src="images/avatar-1.png" alt="" width="54" height="54">
+                                </div>
+                                <div>
+                                    <p>Yifei Chen</p>
+                                    <p>Seoul, South Korea | April 2019</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5">
+                                <div class="flex justify-between mb-[4px] pl-[17%]">
+                                    <div class="flex items-center gap-[6px] mb-[16px]">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="pl-[17%]">
+                                    <p class="w-[100%]">What a great experience using Tripma! I booked all of my flights
+                                        for my gap year through Tripma and never had any issues. When I had to cancel a
+                                        flight because of an emergency, Tripma support helped me read more...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white w-[100%] flex flex-col items-start rounded-lg hover:bg-[#e1e1ff]">
+                            <div class="flex items-center gap-4 pt-4 px-5">
+                                <div>
+                                    <img src="images/avatar-2.png" alt="" width="54" height="54">
+                                </div>
+                                <div>
+                                    <p>Kaori Yamaguchi</p>
+                                    <p>Honolulu, Hawaii | February 2017</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5">
+                                <div class="flex justify-between mb-[4px] pl-[17%]">
+                                    <div class="flex items-center gap-[6px] mb-[16px]">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star-2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="pl-[17%]">
+                                    <p class="w-[100%]">My family and I visit Hawaii every year, and we usually book our
+                                        flights using other services. Tripma was recommened to us by a long time friend,
+                                        and I’m so glad we tried it out! The process was easy and read more...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white w-[100%] flex flex-col items-start rounded-lg hover:bg-[#e1e1ff]">
+                            <div class="flex items-center gap-4 pt-4 px-5">
+                                <div>
+                                    <img src="images/avatar-3.png" alt="" width="54" height="54">
+                                </div>
+                                <div>
+                                    <p>Anthony Lewis</p>
+                                    <p>Berlin, Germany | April 2019</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-[100%] py-4 px-5">
+                                <div class="flex justify-between mb-[4px] pl-[17%]">
+                                    <div class="flex items-center gap-[6px] mb-[16px]">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                        <img src="images/star.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="pl-[17%]">
+                                    <p class="w-[100%]">When I was looking to book my flight to Berlin from LAX, Tripma
+                                        had the best browsing experiece so I figured I’d give it a try. It was my first
+                                        time using Tripma, but I’d definitely recommend it to a friend and use it for
+                                        read more...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

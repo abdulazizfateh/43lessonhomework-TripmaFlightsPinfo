@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="../../src/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container1">
+                <div class="py-6 flex items-center justify-between">
+                    <div>
+                        <a href="../index.html"><img src="../images/logo.svg" alt=""></a>
+                    </div>
+                    <div class="flex items-center gap-8">
+                        <ul class="hidden md:flex md:items-center md:gap-[36px]">
+                            <li><a class="text-base hover:text-[#605DEC] active:text-[#9a99dc]" href="../pages/flight.html">Flights</a>
+                            </li>
+                            <li><a class="text-base hover:text-[#605DEC] active:text-[#9a99dc]" href="#">Passenger information</a></li>
+                            <li><a class="text-base hover:text-[#605DEC] active:text-[#9a99dc]" href="#">Packages</a>
+                            </li>
+                        </ul>
+                        <div class="hidden md:flex md:items-center md:gap-4">
+                            <button
+                                class="text-base hover:text-white py-3 px-5 hover:bg-[#605DEC] hover:rounded-[4px] duration-[0.35s] active:text-[#dcdcdc]">Sign
+                                in</button>
+                            <button
+                                class="text-base hover:text-white py-3 px-5 hover:bg-[#605DEC] hover:rounded-[4px] duration-[0.35s] active:text-[#dcdcdc]">Sign
+                                up </button>
+                        </div>
+                    </div>
+                    <div class="md:hidden">
+                        <img src="../images/menu.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container1">
+                <div class="py-[40px] md:pt-[56px] md:pb-[148px] lg:flex items-end justify-between"> <!--wrapper-->
+                    <div class="lg:w-[60%]"><!--left-->
+                        <div>
+                            <h1 class="text-2xl font-semibold text-[#605DEC] mb-[12px]">Passenger information
+                            </h1>
+                        </div>
+                        <div>
+                            <p class="text-[#7C8DB0] text-[18px] leading-[25px] mb-[20px]">Enter the
+                                required information for each traveler and be sure that it exactly matches the
+                                government-issued ID presented at the airport.</p>
+                        </div>
+                        <div class="mb-[30px]"> <!--card1-->
+                            <div>
+                                <h2 class="text-[#6E7491] text-[18px] leading-[25px] font-medium mb-[16px]">
+                                    Passenger 1 (Adult)</h2>
+                            </div>
+                            <div>
+                                <form class="flex flex-wrap gap-[6px] mb-[30px] md:gap-[18px]">
+                                    <input
+                                        class="w-[49%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px] sm:w-[31%]"
+                                        type="text" placeholder="First name*">
+                                    <input
+                                        class="w-[49%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px] sm:w-[31%]"
+                                        type="text" type="text" placeholder="Middle*">
+                                    <input
+                                        class="w-[49%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px] sm:w-[31%]"
+                                        type="text" type="text" placeholder="Last name*">
+                                    <input
+                                        class="w-[49%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px] sm:w-[31%]"
+                                        type="text" type="text" placeholder="Suffix">
+                                    <input
+                                        class="w-[49%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px] sm:w-[36%]"
+                                        type="text" type="date" placeholder="Date of birth*">
+                                </form>
+                                <form class="flex flex-wrap gap-[6px] md:gap-[18px]">
+                                    <input
+                                        class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                        type="text" type="email" placeholder="Email address*">
+                                    <input
+                                        class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                        type="text" type="tel" placeholder="Phone number">
+                                    <input
+                                        class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                        type="text" type="text" placeholder="Redress number*">
+                                    <input
+                                        class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                        type="text" type="text" placeholder="Known traveller number*">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="mb-[30px]"><!--card2-->
+                            <div>
+                                <h2 class="text-[#6E7491] text-[18px] leading-[25px] font-medium mb-[16px]">
+                                    Emergency contact information</h2>
+                            </div>
+                            <div class="flex items-center gap-[8px] mb-[16px]">
+                                <div class="w-[16px] h-[16px] border-[1px] border-[#6E7491] rounded-[2px]"></div>
+                                <div>
+                                    <p class="text-[#6E7491] text-[16px] leading-[22px]">Same as
+                                        Passenger 1</p>
+                                </div>
+                            </div>
+                            <form class="flex flex-wrap gap-[6px] md:gap-[18px]">
+                                <input class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                    type="text" type="email" placeholder="First name*">
+                                <input class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                    type="text" type="tel" placeholder="Last name">
+                                <input class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                    type="text" type="text" placeholder="Email address*">
+                                <input class="w-[47%] py-[10px] px-[12px] border-[1px] border-[#A1B0CC] rounded-[4px]"
+                                    type="text" type="text" placeholder="Phone number*">
+                            </form>
+                        </div>
+                        <div><!--card3-->
+                            <div>
+                                <h2 class="text-[#6E7491] text-[18px] leading-[25px] font-medium mb-[16px]">
+                                    Bag information</h2>
+                            </div>
+                            <div class="mb-[20px]">
+                                <p class="text-[#7C8DB0] text-[18px] leading-[25px]">Each passenger is
+                                    allowed one free carry-on bag and one personal item. First checked
+                                    bag for each passenger is also free. Second bag check fees are waived for loyalty
+                                    program members. See the <span class="text-[#605DEC]">full bag policy</span>.</p>
+                            </div>
+                            <div class="flex mb-[45px]">
+                                <div class="w-[50%]">
+                                    <p class="text-[#7C8DB0] text-[18px] leading-[25px] mb-[15px]">Passenger 1</p>
+                                    <p class="text-[#6E7491] text-[18px] leading-[25px]">First Last</p>
+                                </div>
+                                <div class="w-[50%]">
+                                    <p class="text-[#7C8DB0] text-[18px] leading-[25px] mb-[15px]">Checked bags</p>
+                                    <div class="flex items-center justify-start gap-[16px]">
+                                        <div
+                                            class="w-[32px] h-[32px] bg-[#EFEFEF] flex items-center justify-center rounded-[4px]">
+                                            <img src="../images/info-minus.svg" alt="">
+                                        </div>
+                                        <p class="text-[#6E7491] text-[18px] leading-[25px]">1</p>
+                                        <div
+                                            class="w-[32px] h-[32px] bg-[#EFEFEF] flex items-center justify-center rounded-[4px]">
+                                            <img src="../images/info-plus.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <button
+                                class="text-[18px] leading-[25px] sm:py-[12px] py-2 px-2 sm:px-[20px] text-[#605DEC] rounded-[4px] border-[1px] border-[#605DEC]">Save
+                                and close</button>
+                            <button
+                                class="text-[18px] bg-[#CBD4E64D] leading-[25px] py-2 px-2 sm:py-[12px] sm:px-[20px] text-[#7C8DB0] rounded-[4px] border-[1px] border-[#7C8DB0]">Select
+                                seats</button>
+                        </div>
+                    </div>
+                    <div class="mt-[30px]"><!--right-->
+                        <div><!--right-content(top)-->
+                            <div class="p-[16px] border-[1px] border-[#E9E8FC] rounded-[12px]"><!--right-card-->
+                                <div class="flex items-start gap-[22px] pb-[10px] border-b-[1px] border-b-[#E9E8FC]">
+                                    <div class="w-[48%]">
+                                        <div class="flex items-center gap-2">
+                                            <img src="../images/info-avatar.svg" alt="">
+                                            <div>
+                                                <p class="text-[17px] leading-[22px] text-[#27273F]">Hawaiian Airlines
+                                                </p>
+                                                <p class="text-[17px] leading-[22px] text-[#7C8DB0]">FIG4312</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-[48%]">
+                                        <p class="text-end leading-[22px] text-[#27273F]">16h 45m (+1d)</p>
+                                        <p class="text-end leading-[22px] text-[#27273F]">7:00 AM - 4:15 PM</p>
+                                        <p class="text-end leading--[22px] text-[#7C8DB0]">2h 45m in HNL</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-[22px] pt-[10px]">
+                                    <div class="w-[48%]">
+                                        <div class="flex items-center gap-2">
+                                            <img src="../images/info-avatar.svg" alt="">
+                                            <div>
+                                                <p class="text-[17px] leading-[22px] text-[#27273F]">Hawaiian Airlines
+                                                </p>
+                                                <p class="text-[17px] leading-[22px] text-[#7C8DB0]">FIG4312</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-[48%]">
+                                        <p class="text-end leading-[22px] text-[#27273F]">16h 45m (+1d)</p>
+                                        <p class="text-end leading-[22px] text-[#27273F]">7:00 AM - 4:15 PM</p>
+                                        <p class="text-end leading--[22px] text-[#7C8DB0]">2h 45m in HNL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex justify-end mb-[22px]">
+                                <div class="p-[16px] flex items-center gap-[40px]">
+                                    <div>
+                                        <p class="text-end font-semibold text-[16px] leading-[22px] text-[#27273F]">
+                                            Subtotal</p>
+                                        <p class="text-end font-semibold text-[16px] leading-[22px] text-[#27273F]">
+                                            Taxes and Fees</p>
+                                        <p class="text-end font-semibold text-[16px] leading-[22px] text-[#27273F]">
+                                            Total</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[16px] font-semibold leading-[22px] text-[#27273F]">$503</p>
+                                        <p class="text-[16px] font-semibold leading-[22px] text-[#27273F]">$121</p>
+                                        <p class="text-[16px] font-semibold leading-[22px] text-[#27273F]">$624</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-[18px] bg-[#CBD4E64D] leading-[25px] py-2 px-2 sm:py-[12px] sm:px-[20px] text-[#7C8DB0] rounded-[4px] border-[1px] border-[#7C8DB0]">Select
+                                    seats</button>
+                            </div>
+                        </div>
+                        <div class="hidden lg:mt-[40px] lg:flex lg:justify-end">
+                            <img src="../images/info-bags.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
